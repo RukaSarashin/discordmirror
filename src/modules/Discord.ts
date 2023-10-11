@@ -117,7 +117,7 @@ export const listen = (): void => {
                             }.png`,
                         content: content ? content : "** **\n",
                         url: webhookUrl,
-                        username: `${username}#${discriminator}${ub}`
+                        username: `${username}`
                     };
 
                     if (embeds[0]) {
